@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:700|Montserrat:500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>unlocked - Landing Page Project FCC</title>
+</head>
+
+<body>
+  <div class="mobile-menu hidden">
+    <ul>
+      <li>
+        <div class="close-menu">
+          <div class="close-line1"></div>
+          <div class="close-line2"></div>
+        </div>
+      </li>
+      <li><a href="#features-anchor" class="mobile-feat">Features</a></li>
+      <li><a href="#prices-anchor" class="mobile-price">Prices</a></li>
+      <li class="CTA-mobile"><a href="#signup-anchor" class="mobile-signup"><span>Join Us</span></a></li>
+    </ul>
+  </div>
+  <div class="wrapper">
+    <header id="header">
+      <h1 class="logo header-img"><a href="#hero-anchor">unlocked</a></h1>
+      <img id="header-img" src="#">
+      <nav id="nav-bar">
+        <ul>
+          <a href="#features-anchor" class="nav-link">
+            <li class="navigating">Features</li>
+          </a>
+          <a href="#prices-anchor" class="nav-link">
+            <li class="navigating">Prices</li>
+          </a>
+          <a href="#signup-anchor" class="nav-CTA nav-link">
+            <li class="navigating CTA">Join Us</li>
+          </a>
+        </ul>
+      </nav>
+      <div class="menuBtn">
+        <div class="menu-icon">
+          <div class="lines1 menu-icon-lines"></div>
+          <div class="lines2 menu-icon-lines"></div>
+          <div class="lines3 menu-icon-lines"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="hero-wrapper">
+      <div id="hero">
+        <div class="hero-head">
+          <h2 class="hero-h2">Your full<br>gaming<br>experience<br><span class=" hero-head-accent">instantly</span></h2>
+        </div>
+        <div class="hero-body">
+          <p>Tired of waiting to have access to the coolest weapons, greatest tools, and the best armor? Wait no more!
+          </p>
+          <p>At <span class="hero-body-accent">Unlocked</span>, we give you full access to the game you’ve already paid
+            for without investing a ton of effort and time.</p>
+          <p>Stop waiting, sign up and...</p>
+          <a href="#signup-anchor"><button class="CTA hero-CTA">Play Now!</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="features-wrapper" id="features-anchor">
+      <h3>Features</h3>
+      <div class="video-wrapper">
+        <div class="video-block">
+          <iframe src="https://www.youtube.com/embed/cPRRupAM4DI" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+            class="video"></iframe>
+        </div>
+      </div>
+      <ul class="features-list">
+        <li class="item1">
+          <div class="features-item">
+            <div class="features-item-head">
+              <div class="grind-img"><i class="fas fa-cogs"></i></div>
+              <h4 class="features-title">Grind Free</h4>
+            </div>
+            <div class="features-item-body">
+              <p>No more wasted hours grinding for great loot.</p>
+            </div>
+          </div>
+        </li>
+        <li class="item2">
+          <div class="features-item">
+            <div class="features-item-head">
+              <div class="access-img">100%</div>
+              <h4 class="features-title">Full Access</h4>
+            </div>
+            <div class="features-item-body">
+              <p>Enjoy a complete gaming experience instantly.</p>
+            </div>
+          </div>
+        </li>
+        <li class="item3">
+          <div class="features-item">
+            <div class="features-item-head">
+              <div class="rate-img"><i class="fas fa-money-bill-alt"></i></div>
+              <h4 class="features-title">Flat Rate</h4>
+            </div>
+            <div class="features-item-body">
+              <p>Unlimited games unlocked
+                for one monthly rate.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="features-signup" id="signup-anchor">
+        <p><span class="features-signup-accent">Sign up</span> to receive more information about unlocking your games
+          full potential.</p>
+        <form action="https://www.freecodecamp.com/email-submit" id="form" class="signup">
+          <input type="email" name="email" id="email" placeholder="someone@unlocked.io" required>
+          <input type="submit" value="Sign Up" id="submit">
+        </form>
+      </div>
+    </div>
+
+    <div class="prices-wrapper" id="prices-anchor">
+      <div id="prices">
+        <h3>Prices</h3>
+        <ul class="price-list">
+          <li class="price-item price1">
+            <a href="#signup-anchor" class="price-link">
+              <div class="price-item-head price-link">
+                <span class="price-item-img price-img1">$</span>
+              </div>
+              <div class="price-item-body price-link">
+                <h4>Single Player</h4>
+                <p class="price-text">
+                  Unlimited<br>
+                  <span class="price-text-accent">Games</span>
+                </p>
+                <span class="price-point-text">5.99</span>
+              </div>
+            </a>
+          </li>
+          <li class="price-item price2">
+            <a href="#signup-anchor" class="price-link">
+              <div class="price-item-head">
+                <span class="price-item-img price-img2">$</span>
+              </div>
+              <div class="price-item-body price-link">
+                <h4>Multiplayer</h4>
+                <p class="price-text">
+                  Includes<br>
+                  <span class="price-text-accent">Single Player</span>
+                </p>
+                <span class="price-point-text">11.99</span>
+              </div>
+            </a>
+          </li>
+          <li class="price-item price3">
+            <a href="#signup-anchor" class="price-link">
+              <div class="price-item-head price-link">
+                <span class="price-item-img price-img3">$</span>
+              </div>
+              <div class="price-item-body price-link">
+                <h4>MMO</h4>
+                <p class="price-text">
+                  Includes<br>
+                  <span class="price-text-accent">Single Player</span>
+                </p>
+                <span class="price-point-text">14.99</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <div class="contact">
+        <ul class="footer-info">
+          <li class="footer-links"><a href="#">Privacy</a></li>
+          <li class="footer-links"><a href="#hero-anchor">About</a></li>
+        </ul>
+        <ul class="footer-social">
+          <li class="footer-links">
+            <a href=""><i class="fab fa-facebook"></i></a>
+          </li>
+          <li class="footer-links">
+            <a href=""><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <span class="copy">unlocked &#169; 2018</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
