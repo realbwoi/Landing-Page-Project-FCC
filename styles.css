@@ -722,12 +722,9 @@ header {
   #nav-bar {
     display: none;
   }
-<<<<<<< HEAD
   .menuBtn {
     display: block;
   }
-=======
->>>>>>> 1255751a54eeedefa3201d260961ad935c082668
   .menu-icon {
     display: grid;
   }
