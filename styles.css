@@ -130,11 +130,7 @@ header {
 }
 
 .menuBtn {
-<<<<<<< HEAD
   display: none;
-=======
-  display: block;
->>>>>>> 1255751a54eeedefa3201d260961ad935c082668
 }
 
 .menu-icon {
@@ -758,11 +754,7 @@ header {
   .hero-body {
     margin: 0 auto;
     width: 320px;
-<<<<<<< HEAD
-  } 
-=======
   }  
->>>>>>> 1255751a54eeedefa3201d260961ad935c082668
   .hero-body p {
     margin-left: 0;
     margin-right: 0;
